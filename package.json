@@ -1,0 +1,57 @@
+{
+  "name": "taskbox",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "test:unit": "vue-cli-service test:unit",
+    "storybook": "start-storybook -p 6006 -s public",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "npx": "^10.2.0",
+    "prettify": "^0.1.7",
+    "react": "^16.6.1",
+    "react-dom": "^16.6.1",
+    "vue": "^2.5.17",
+    "vue-loader": "^15.4.2",
+    "vue-template-es2015-compiler": "^1.6.0",
+    "yarn": "^1.12.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@storybook/addon-actions": "^4.0.4",
+    "@storybook/addon-links": "^4.0.4",
+    "@storybook/addon-storyshots": "^4.0.4",
+    "@storybook/addons": "^4.0.4",
+    "@storybook/vue": "^4.0.4",
+    "@vue/cli-plugin-babel": "^3.1.1",
+    "@vue/cli-plugin-eslint": "^3.1.1",
+    "@vue/cli-plugin-unit-jest": "^3.1.1",
+    "@vue/cli-service": "^3.1.1",
+    "@vue/eslint-config-prettier": "^4.0.0",
+    "@vue/test-utils": "^1.0.0-beta.20",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^23.6.0",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-require-context-hook": "^1.0.0",
+    "babel-preset-vue": "^2.0.2",
+    "eslint": "^5.8.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-vue": "^5.0.0-beta.3",
+    "jest-vue-preprocessor": "^1.4.0",
+    "vue-template-compiler": "^2.5.17"
+  },
+  "eslintConfig": {
+    "root": true,
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended",
+      "plugin:prettier/recommended"
+    ]
+  }
+}
